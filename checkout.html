@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Hector's Online</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="checkout-container">
+            <h2>Resumen de Compra</h2>
+            <ul id="checkout-items">
+                <!-- Aquí se mostrarán los productos del carrito -->
+            </ul>
+            <p>Total a pagar: $<span id="checkout-total">0.00</span></p>
+            <button id="confirm-purchase">Confirmar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Tienda e-Commerce | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/checkout.js"></script>
+</body>
+</html>
